@@ -3,7 +3,7 @@ import requests
 
 app = FastAPI()
 
-API_KEY = "YOUR_API_KEY_HERE"
+API_KEY = "hackathon123"
 
 @app.post("/honeypot")
 async def honeypot(
@@ -46,3 +46,4 @@ async def honeypot(
         "status": "success",
         "reply": "Can you please explain this again?"
     }
+
